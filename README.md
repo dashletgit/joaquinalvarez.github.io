@@ -12,7 +12,7 @@ Este sitio web está diseñado con un enfoque minimalista para poner el foco en 
 * **CSS3:** Para todos los estilos, usando Flexbox y Grid para un layout responsive.
 * **JavaScript (ES6+):** Para toda la interactividad, incluyendo:
   * Carrusel de proyectos dinámico.
-  * Carga de contenido de proyectos desde "snippets".
+  * Carga de contenido de proyectos desde "content".
   * Actualización automática del año en el footer.
 * **JSON:** Para alimentar el carrusel de la página principal.
 * **Formspree:** Para gestionar el formulario de contacto sin necesidad de un backend.
