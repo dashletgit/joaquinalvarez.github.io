@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://placehold.co/900x500/png",
+        "altText": "Imagen del proyecto Cyber Runner",
+        "title": "PROYECTO: \"CYBER RUNNER\""
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://placehold.co/900x500/png",
+        "altText": "Imagen del proyecto Astra",
+        "title": "PROYECTO: \"ASTRA\""
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://placehold.co/900x500/png",
+        "altText": "Imagen del proyecto Puzzle Bloom",
+        "title": "PROYECTO: \"PUZZLE BLOOM\""
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://placehold.co/900x500/png",
+        "altText": "Imagen de un cuarto proyecto",
+        "title": "PROYECTO: \"NUEVO JUEGO\""
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://placehold.co/900x500/png",
+        "altText": "Imagen de un quinto proyecto",
+        "title": "PROYECTO: \"NUEVO JUEGO\""
+    }
+]
