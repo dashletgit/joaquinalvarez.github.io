@@ -4,7 +4,7 @@
 
 Este sitio web está diseñado con un enfoque minimalista para poner el foco en los proyectos. Está construido con HTML, CSS y JavaScript vainilla, y alojado estáticamente en GitHub Pages.
 
-## [Ver el sitio en vivo 🚀](https://dashletgit.github.io/joaquinalvarez.github.io/)
+## [Ver el sitio en vivo 🚀](https://dashletgit.github.io/joaquinalvarez/)
 
 ## 🛠️ Tecnologías Utilizadas
 
