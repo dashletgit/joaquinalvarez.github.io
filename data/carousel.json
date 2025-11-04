@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "imageUrl": "https://placehold.co/900x500/png",
-        "altText": "Imagen del proyecto Cyber Runner",
-        "title": "PROYECTO: \"CYBER RUNNER\""
+        "imageUrl": "./imgs/jc_snow.png",
+        "altText": "JUMPCORE",
+        "title": "PROYECTO: \"JUMPCORE\""
     },
     {
         "id": 2,

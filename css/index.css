@@ -9,10 +9,13 @@
     --color-fondo-tarjeta: #333333;
     --color-texto-principal: #ffffff;
     --color-texto-secundario: #777777;
+    --color-texto-terciario: #adadad;
     --color-borde: #eeeeee;
-    --color-acento: #FF6B6B;
+    --color-borde-foto: #777777;
+    --color-acento: #bf4949;
     --color-acento-gradiente: #FF8E53;
     --color-fondo-body: #2a3333; 
+    --color-texto-rol: #8499bf;
 }
 
 body {
@@ -64,7 +67,7 @@ nav.navBar {
 }
 
 img.logo {
-    clip-path: circle(50%);
+    clip-path: circle(60%);
     width: 100px;
     height: 100px;
 }
@@ -72,12 +75,13 @@ img.logo {
 section#aboutMe {
     max-width: 900px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     border: 1px solid var(--color-borde);
     border-radius: 12px;
     padding: 24px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     background-color: var(--color-fondo-tarjeta);
+    margin-bottom: 30px;
 }
 
 ul.ulNav {
@@ -120,15 +124,16 @@ ul.ulNav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex: 2;
+    flex: 1;
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.4rem;
+    box-shadow: 0px 0px 8px var(--color-borde-foto);
     
     /* Este será el borde degradado. Por ahora es sólido.
         Tu amigo puede cambiar 'var(--color-borde)' por su degradado.
@@ -136,7 +141,7 @@ ul.ulNav {
             background: linear-gradient(var(--color-fondo-tarjeta), var(--color-fondo-tarjeta)) padding-box, 
                     linear-gradient(to right, #6A1B9A, #00BFFF) border-box;
     */
-    border: 3px solid var(--color-borde);
+    border: 3px solid var(--color-borde-foto);
 }
 
 .profile-image img {
@@ -148,12 +153,12 @@ ul.ulNav {
 .card-profile h1 {
     font-size: 1.75rem;
     font-weight: 700;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.1rem;
 }
 
 .profile-title {
     font-size: 1rem;
-    color: var(--color-texto-secundario);
+    color: var(--color-texto-rol);
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -186,6 +191,7 @@ ul.ulNav {
 .social-links a i {
     font-size: 1.1rem;
     line-height: 1;
+    color: lightblue;
 }
 
 .social-links a:hover {
@@ -209,7 +215,6 @@ ul.ulNav {
 .card-info p:last-of-type {
     margin-bottom: 0;
     flex-grow: 1;
-    align-content: center;
     text-align: justify;
 }
 
@@ -222,7 +227,7 @@ ul.ulNav {
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
-    justify-content: center;
+    justify-content: left;
 }
 
 .btn {
@@ -373,6 +378,11 @@ section#contact {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    border-top: var(--color-borde) inset;
+    border-width: thin;
+    border-bottom: var(--color-borde) inset;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .site-footer {
@@ -405,6 +415,9 @@ section#contact {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
+    border-top: var(--color-borde) inset;
+    padding-top: 35px;   
+    border-width: thin;
 }
 
 .footer-container p a{
@@ -505,6 +518,10 @@ section.cProjects {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-top: var(--color-borde) inset;
+    border-width: thin;
+    padding-top: 30px; 
+    margin-bottom: 20px;
 }
 
 .contactH2{
@@ -555,7 +572,7 @@ article.project-card {
 }
 
 .project-info p {
-    color: var(--color-texto-secundario, #777777);
+    color: var(--color-texto-terciario, #777777);
     line-height: 1.6;
     margin-bottom: 0.5rem;
 }
@@ -568,8 +585,8 @@ article.project-card {
 }
 
 .project-tags span {
-    background-color: #f0f0f0; 
-    color: var(--color-texto-secundario, #777777);
+    background-color: #98b7d8; 
+    color: black;
     padding: 0.3rem 0.8rem;
     border-radius: 16px; 
     font-size: 0.85rem;
