@@ -1,32 +1,40 @@
 [
     {
         "id": 1,
-        "imageUrl": "./imgs/jc_snow.png",
+        "imageUrl": "./imgs/jc_gif2.gif",
         "altText": "JUMPCORE",
-        "title": "PROYECTO: \"JUMPCORE\""
+        "title": "JUMPCORE: SNOW LEVEL"
     },
     {
         "id": 2,
-        "imageUrl": "https://placehold.co/900x500/png",
-        "altText": "Imagen del proyecto Astra",
-        "title": "PROYECTO: \"ASTRA\""
+        "imageUrl": "./imgs/quake3.png",
+        "altText": "QUAKE",
+        "title": "QUAKE: LEVEL BLOCKOUT"
     },
     {
         "id": 3,
-        "imageUrl": "https://placehold.co/900x500/png",
-        "altText": "Imagen del proyecto Puzzle Bloom",
-        "title": "PROYECTO: \"PUZZLE BLOOM\""
+        "imageUrl": "./imgs/jc_gif3.gif",
+        "altText": "JUMPCORE",
+        "title": "JUMPCORE: HUB LEVEL"
     },
     {
         "id": 4,
-        "imageUrl": "https://placehold.co/900x500/png",
-        "altText": "Imagen de un cuarto proyecto",
-        "title": "PROYECTO: \"NUEVO JUEGO\""
+        "imageUrl": "./imgs/jc_bk1.png",
+        "altText": "JUMPCORE",
+        "title": "JUMPCORE: LEVEL 1 BLOCKOUT"
     },
     {
         "id": 5,
-        "imageUrl": "https://placehold.co/900x500/png",
-        "altText": "Imagen de un quinto proyecto",
-        "title": "PROYECTO: \"NUEVO JUEGO\""
+        "imageUrl": "./imgs/cs_ratsgif.gif",
+        "altText": "COUNTER-STRIKE",
+        "title": "COUNTER-STRIKE 1.6: MAP BASED ON MY ROOM"
+    },
+    {
+        "id": 6,
+        "imageUrl": "./imgs/smw1.png",
+        "altText": "SMW",
+        "title": "SUPER MARIO WORLD: CUSTOM LEVEL"
     }
+
+    
 ]

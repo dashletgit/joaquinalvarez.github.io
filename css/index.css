@@ -9,7 +9,7 @@
     --color-fondo-tarjeta: #333333;
     --color-texto-principal: #ffffff;
     --color-texto-secundario: #777777;
-    --color-texto-terciario: #adadad;
+    --color-texto-terciario: #cccccc;
     --color-borde: #eeeeee;
     --color-borde-foto: #777777;
     --color-acento: #bf4949;
@@ -467,7 +467,7 @@ section#contact {
     background-color: #f9f9f9; 
     font-size: 1rem;
     font-family: inherit;
-    color: var(--color-texto-principal, #333333);
+    color: black;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
